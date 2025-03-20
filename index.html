@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Routine Schedule</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            margin: 20px;
+        }
+        h2 {
+            color: #333;
+        }
+        .table-container {
+            width: 90%;
+            margin: auto;
+            overflow-x: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: #fff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background: #007bff;
+            color: white;
+        }
+        tr:hover {
+            background: #f1f1f1;
+        }
+        .morning { background-color: #ffebcd; }
+        .afternoon { background-color: #ffe4e1; }
+        
+        @media (max-width: 600px) {
+            th, td {
+                padding: 8px;
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h2>Daily Routine Schedule</h2>
+    <div class="table-container">
+        <table>
+            <tr>
+                <th>Time</th>
+                <th>Activity</th>
+                <th>Best Practices</th>
+            </tr>
+            
+            <!-- Morning Shift -->
+            <tr class="morning"><td colspan="3"><strong>Morning Shift (6:30 AM – 4:00 PM)</strong></td></tr>
+            <tr class="morning"><td>4:20 AM – 5:00 AM</td><td>Wake Up & Freshen Up</td><td>Hydrate, stretch, cold shower</td></tr>
+            <tr class="morning"><td>5:00 AM – 5:45 AM</td><td>Workout</td><td>Jogging, push-ups, core exercises</td></tr>
+            <tr class="morning"><td>5:45 AM – 6:15 AM</td><td>Breakfast</td><td>Protein-rich meal</td></tr>
+            <tr class="morning"><td>6:30 AM – 4:00 PM</td><td>Work Shift</td><td>Stay hydrated, take short breaks</td></tr>
+            <tr class="morning"><td>4:30 PM – 5:30 PM</td><td>Family Time</td><td>Talk, avoid phone distractions</td></tr>
+            <tr class="morning"><td>5:30 PM – 6:30 PM</td><td>Career Learning</td><td>Cloud Computing, AI/ML, Linux</td></tr>
+            <tr class="morning"><td>6:30 PM – 7:30 PM</td><td>Personal Time</td><td>Music, reading, mental relaxation</td></tr>
+            <tr class="morning"><td>7:30 PM – 8:30 PM</td><td>Dinner & Unwind</td><td>Eat light, avoid junk food</td></tr>
+            <tr class="morning"><td>9:00 PM – 10:00 PM</td><td>Extra Learning / Freelancing</td><td>Practice coding, small projects</td></tr>
+            <tr class="morning"><td>10:00 PM – 4:20 AM</td><td>Sleep</td><td>Dark room, avoid screens</td></tr>
+            
+            <!-- Afternoon Shift -->
+            <tr class="afternoon"><td colspan="3"><strong>Afternoon Shift (2:00 PM – 11:30 PM)</strong></td></tr>
+            <tr class="afternoon"><td>8:30 AM – 9:10 AM</td><td>Wake up & Freshen up</td><td>Drink water, stretch</td></tr>
+            <tr class="afternoon"><td>9:10 AM – 10:00 AM</td><td>Workout</td><td>Jump rope, weight exercises</td></tr>
+            <tr class="afternoon"><td>10:00 AM – 10:30 AM</td><td>Breakfast</td><td>Light, healthy meal</td></tr>
+            <tr class="afternoon"><td>10:30 AM – 11:30 AM</td><td>Career Learning</td><td>Study, practice Linux</td></tr>
+            <tr class="afternoon"><td>11:30 AM – 12:30 PM</td><td>Family Time</td><td>Engage in conversation</td></tr>
+            <tr class="afternoon"><td>12:30 PM – 1:30 PM</td><td>Lunch & Relax</td><td>Eat balanced meal</td></tr>
+            <tr class="afternoon"><td>2:00 PM – 11:30 PM</td><td>Work Shift</td><td>Take breaks, hydrate</td></tr>
+            <tr class="afternoon"><td>12:00 AM – 12:30 AM</td><td>Light Meal & Unwind</td><td>Drink tea, stretch</td></tr>
+            <tr class="afternoon"><td>12:30 AM – 1:30 AM</td><td>Personal Time</td><td>Journal, relax</td></tr>
+            <tr class="afternoon"><td>2:00 AM – 8:30 AM</td><td>Sleep</td><td>Use an eye mask</td></tr>
+        </table>
+    </div>
+</body>
+</html>
